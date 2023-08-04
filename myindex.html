@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Your favourite music is here</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"> <img src=logo.png>Spotify</li>
+            <li ><a href="home.html">
+              Home
+            </a></li>
+           
+            <li>About</li>
+            <li class="nya">sign_up</li>
+            <li class="nya">Login</li>
+
+        </ul>
+    </nav>
+
+
+    <!-- Add the sidebar code here -->
+    <div class="sidebar" style="width: 280px;">
+        
+          <svg class="bi pe-none me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+          <span class="fs-4"> Enjoy Your Day</span>
+
+        </a>
+        <hr>
+        <ul class="nav">
+          <li class="nav-item"  id="sidebar-home-tab">
+            <a href="home.html" class="nav-link active" aria-current="page">
+              <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#home"></use></svg>
+            Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link text-white">
+              <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#speedometer2"></use></svg>
+              Dashboard
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link text-white">
+              <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#table"></use></svg>
+              Orders
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link text-white">
+              <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#grid"></use></svg>
+              Products
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link text-white">
+              <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#people-circle"></use></svg>
+              Customers
+            </a>
+          </li>
+        </ul>
+        <hr>
+        <div class="dropdown">
+          <ul class="dropdown menu">
+            <li><a class="dropdown-item" href="#">New project...</a></li>
+            <li><a class="dropdown-item" href="#">Settings</a></li>
+            <li><a class="dropdown-item" href="#">Profile</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Sign out</a></li>
+          </ul>
+        </div>
+    </div>
+    <!-- End of sidebar code -->
+
+    <div class="container">
+        <div class="songlist">
+            <h1>What's Your Mood Today!</h1>
+            <div class="songcont">
+            <div class="songitem">
+                <img src="./covers/1.jpg" alt="1">
+                <span class="songName">Let me Love You</span>
+                <span class="songlistplay"><span class="timestamp"> 05:34<i class="far songitemplay fa-play-circle" id="0"></i></span>
+            </span>
+            </div>
+            <div class="songitem">
+                <img src="./covers/2.jpg" alt="1">
+                <span class="songName">Let me Love You</span>
+                <span class="songlistplay"><span class="timestamp"> 05:34<i class="far songitemplay  fa-play-circle" id="1"></i></span>
+            </span>
+            </div>
+            <div class="songitem">
+                <img src="./covers/3.jpg" alt="1">
+                <span class="songName">Let me Love You</span>
+                <span class="songlistplay"><span class="timestamp"> 05:34<i class="far songitemplay  fa-play-circle" id="2"></i></span>
+            </span>
+            </div>
+            <div class="songitem">
+                <img src="./covers/4.jpg" alt="1">
+                <span class="songName"> Let me Love You</span>
+                <span class="songlistplay"><span class="timestamp"> 05:34<i class="far songitemplay  fa-play-circle" id="3"></i></span>
+            </span>
+            </div>
+            <div class="songitem">
+                <img src="./covers/5.jpg" alt="1">
+                <span class="songName">Let me Love You</span>
+                <span class="songlistplay"><span class="timestamp"> 05:34<i class="far songitemplay  fa-play-circle" id="4"></i></span>
+            </span>
+            </div>
+            <div class="songitem">
+                <img src="./covers/6.jpg" alt="1">
+                <span class="songName">Let me Love You</span>
+                <span class="songlistplay"><span class="timestamp"> 05:34<i class="far songitemplay  fa-play-circle" id="5"></i></span>
+            </span>
+            </div>
+            <div class="songitem">
+                <img src="./covers/7.jpg" alt="1">
+                <span class="songName">Let me Love You</span>
+                <span class="songlistplay"><span class="timestamp"> 05:34<i class="far songitemplay  fa-play-circle" id="6"></i></span>
+            </span>
+
+            
+            </div>
+            <div class="songitem">
+                <img src="./covers/8.jpg" alt="1">
+                <span class="songName">Let me Love You</span>
+                <span class="songlistplay"><span class="timestamp"> 05:34<i class="far songitemplay  fa-play-circle" id="7"></i></span>
+            </span>
+            </div>
+            <div class="songitem">
+                <img src="./covers/9.jpg" alt="1">
+                <span class="songName">Let me Love You</span>
+                <span class="songlistplay"><span class="timestamp"> 05:34<i class="far songitemplay  fa-play-circle" id="8"></i></span>
+            </span>
+            </div>
+            <div class="songitem">
+                <img src="./covers/10.jpg" alt="1">
+                <span class="songName">Let me Love You</span>
+                <span class="songlistplay"><span class="timestamp"> 05:34<i class="far songitemplay  fa-play-circle" id="9"></i></span>
+            </span>
+            </div>
+        </div>
+    </div>
+        <div class="songbanner"></div>
+
+
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar"  min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fas fa-3x fa-step-backward" id="previous"></i>
+            <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-3x fa-step-forward" id="next"></i> 
+        </div>
+    </div>
+    <div class="songinfo">
+        <img src="playing.gif" width="42px" id="gif">
+    </div>
+    
+    <script src="mohit.js"></script>
+    <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+</body>
+</html>
+
+

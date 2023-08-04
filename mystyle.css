@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  font-family: 'Ubuntu', sans-serif;
+  background-color: black;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+nav ul {
+  display: flex;
+  color: white;
+  list-style-type: none;
+  align-items: center;
+}
+
+nav ul li {
+  padding: 20px;
+  cursor:pointer;
+}
+
+
+.brand img {
+  width: 44px;
+  padding: 0 8px;
+}
+
+.container {
+  min-height: 75vh;
+  color: white;
+  font-family: Arial,  Helvetica, sans-serif;
+  display: inline-block;
+
+  position:absolute;
+  top: 60px;
+left:400px;
+bottom:50%;
+  width: 50%; /* Adjusted width to account for sidebar */
+  background-color: black;
+  border-radius: 10px;
+  background-image: url('bg.jpg');
+  background-repeat:no-repeat;
+  background-size: 100%;
+
+
+
+  margin: 23px 0; /* Removed auto margin and adjusted top and bottom margin */
+  
+}
+
+.bottom {
+  position: absolute;
+  bottom:0px;
+  top:850px;
+  left:15px;
+  
+  right:0px;
+
+  height: 100px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+}
+
+
+.icons i {
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.bottom #myProgressBar {
+  width: 80vw;
+  cursor: pointer;
+}
+
+.songitem {
+  height: 50px;
+  
+
+  display: flex;
+  background-color: grey;
+  border-radius: 25px;
+  width: 80%;
+  margin: 12px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.songitem img {
+  height: 50px;
+  border-radius: 25px;
+}
+
+.timestamp i {
+  cursor: pointer;
+}
+
+.songcont {
+  margin-top: 60px;
+}
+
+.songinfo {
+  position: absolute;
+ 
+  left: 0px;
+  top:900px;
+
+}
+
+.songinfo img {
+  opacity: 0;
+  transition: opacity 1s ease-in;
+}
+
+/* Custom styles for the added sidebar */
+.sidebar {
+  width: 280px;
+  background-color:black;
+  color: white;
+  margin-right: 50px; 
+  margin-left:10px;
+
+  border:10px white;
+  display:inline-block;
+
+  @media(max-width:600px){
+    width:15%;
+    font-size:15px;
+
+  }
+
+  /* Added margin to create a gap on the right side */
+}
+.nav-item{
+  height: 50px;
+  display: flex;
+  background-color:gray ;
+  color:antiquewhite;
+  border-radius: 25px;
+  width: 100%;
+  margin: 12px 0;
+  justify-content: space-between;
+  align-items: center;
+ 
+
+}
+
+.menu{
+    
+  display: inline-block;
+  background-color: rgb(153, 153, 160);
+  border-radius: 5px; 
+  font-family:'Times New Roman', Times, serif; 
+   list-style-type: none;
+  width: 100%;
+  margin: 12px 0;
+  justify-content: space-between;
+  align-items: center;
+    color: white;
+
+}
+.dropdown{
+  background-color:black;
+}
+.dropdown-item{
+  height: 50px;
+  display: flex;
+  background-color:dimgrey;
+  color:antiquewhite;
+  border-radius: 20px;
+  width: 80%;
+  margin: 12px 0;
+  justify-content: space-between;
+  align-items:center;
+  @media(max-width:600px){
+    width:50%;
+
+    font-size:15px;
+
+  }
+}
+
+
+
+
+/* Reset box-sizing for all elements */
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+/* Optional: Override body styles */
+/* body {
+  margin: 0;
+  font-family: var(--bs-body-font-family);
+  font-size: var(--bs-body-font-size);
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
+  color: var(--bs-body-color);
+  text-align: var(--bs-body-text-align);
+  background-color: var(--bs-body-bg);
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+} */
+
+.fs-4{
+  color:white;
+  background-color: rgb(23, 25, 24);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font: weight 500px;;
+
+
+}

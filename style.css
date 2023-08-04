@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+body{
+    background-color: antiquewhite;
+}
+h3{
+    color:gray;
+   
+    margin-left:120px;
+    margin-top:80%;
+}
+.rom{
+    background-image: url('rom.jpeg');
+    background-repeat:no-repeat;
+    
+}
+.card{
+    
+  background-repeat:no-repeat;
+  background-size: 90%;
+cursor:pointer;
+}
+
